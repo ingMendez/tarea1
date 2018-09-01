@@ -26,18 +26,48 @@ namespace Ejercicio1._1
         public void ejercicos3()
         {
             float grados;
-            Console.WriteLine("nomero en grados");
+            Console.WriteLine("numero en grados");
             grados = Convert.ToSingle(Console.ReadLine());
 
             float radian;
 
-            radian = grados * ((float)Math PI / 180);
+            radian = grados * ((float)Math.PI / 180);
             Console.WriteLine("la convercion a radieanes es :" + radian);
 
         }
         public void ejercicios5()
         {
-            flotal
+            int opcion;
+            float dolares,euros,taza,cambio;
+
+            Console.WriteLine("\n1.dolares a euro");
+            Console.WriteLine("\n1.euros");
+            opcion = Convert.ToInt32(Console.ReadLine());
+
+            switch (opcion)
+            {
+                case 1:
+                    Console.WriteLine("digite cantidad de dolares:");
+                    dolares = Convert.ToSingle(Console.ReadLine());
+                    Console.WriteLine("taza de euros:");
+                    taza = Convert.ToSingle(Console.ReadLine());
+                    cambio = dolares / taza;
+                   Console.WriteLine("el cambio en euros es de:" + cambio + ":\t euros");
+                    Console.ReadKey();
+
+                    break;
+                case 2:
+                    Console.WriteLine("digite cantidad de euros:");
+                    dolares = Convert.ToSingle(Console.ReadLine());
+                    Console.WriteLine("taza del dolar:");
+                    taza = Convert.ToSingle(Console.ReadLine());
+                    cambio = dolares / taza;
+
+                    Console.WriteLine("el cambio en dolar es de:" + cambio + ":\tdolares");
+                    Console.ReadKey();
+                    break;
+            }
+
         }
     }
-}
+} 
