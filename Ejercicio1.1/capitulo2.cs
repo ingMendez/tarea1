@@ -60,10 +60,10 @@ namespace Ejercicio1._1
                     break;
                 case 2:
                     Console.WriteLine("digite cantidad de euros:");
-                    dolares = Convert.ToSingle(Console.ReadLine());
+                    euros = Convert.ToSingle(Console.ReadLine());
                     Console.WriteLine("taza del dolar:");
                     taza = Convert.ToSingle(Console.ReadLine());
-                    cambio = dolares / taza;
+                    cambio = euros / taza;
 
                     Console.WriteLine("el cambio en dolar es de:" + cambio + ":\tdolares");
                     Console.ReadKey();

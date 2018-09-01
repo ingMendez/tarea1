@@ -41,7 +41,25 @@ namespace Ejercicio1._1
 
         public void ejercicios4_5()
         {
-           
+            int n;
+            int ed,i=0;
+            int x = 0;
+            Console.WriteLine("digite el numero de edad:");
+            n = Convert.ToInt32(Console.ReadLine());
+            
+            while(n != null)
+            {
+                i++;   
+                Console.WriteLine("edad"+i);
+                ed = Convert.ToInt32(Console.ReadLine());
+                n--;
+                Console.ReadKey();
+
+                
+            }
+          
+        
+        }
         }
     }
-}
+
