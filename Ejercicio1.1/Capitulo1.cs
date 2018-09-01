@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ejercicio1._1
 {
-    class Capitulo1
+   class Capitulo1
     {
     
         public void menu()

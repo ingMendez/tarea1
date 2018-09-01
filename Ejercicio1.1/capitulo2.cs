@@ -23,7 +23,7 @@ namespace Ejercicio1._1
             Console.ReadKey();
         }
 
-        public void ejercicos3()
+        public void Ejercicos3()
         {
             float grados;
             Console.WriteLine("numero en grados");
