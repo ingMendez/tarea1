@@ -33,15 +33,17 @@ namespace Ejercicio1._1
 
             radian = grados * ((float)Math.PI / 180);
             Console.WriteLine("la convercion a radieanes es :" + radian);
+            Console.ReadKey();
 
         }
+
         public void ejercicios5()
         {
             int opcion;
             float dolares,euros,taza,cambio;
 
             Console.WriteLine("\n1.dolares a euro");
-            Console.WriteLine("\n1.euros");
+            Console.WriteLine("\n1.euros a dolares");
             opcion = Convert.ToInt32(Console.ReadLine());
 
             switch (opcion)
