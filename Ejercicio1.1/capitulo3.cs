@@ -63,7 +63,10 @@ namespace Ejercicio1._1
         }
 
         public void ejercicio3_5()
-        {
+        { /* Hacer una programa que pueda calcular 
+             * el perímetro y el área de cualquier polígono regular,
+             * pero que le pregunte al usuario qué desea calcular.
+             */
 
         }
 

@@ -46,6 +46,7 @@
     <Compile Include="Capitulo1.cs" />
     <Compile Include="capitulo2.cs" />
     <Compile Include="capitulo3.cs" />
+    <Compile Include="capitulo4.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

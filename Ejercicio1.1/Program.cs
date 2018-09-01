@@ -10,11 +10,9 @@ namespace Ejercicio1._1
     {
         static void Main(string[] args)
         {
-            Capitulo3 p3 = new Capitulo3();
-            p3.Ejercicios3_4();
-            
+            Capitulo4 p4 = new  Capitulo4();
 
-
+            p4.Ejercicio4_1();
         }
     }
 }
