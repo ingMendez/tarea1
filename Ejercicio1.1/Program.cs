@@ -10,6 +10,10 @@ namespace Ejercicio1._1
     {
         static void Main(string[] args)
         {
+            Capitulo1 p = new Capitulo1();
+            capitulo2 p2 = new capitulo2();
+            p2.ejercicios1();
+
         }
     }
 }
